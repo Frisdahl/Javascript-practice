@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="external-style.js" type="text/javascript" defer></script>
+    <title>Javascript</title>
+  </head>
+  <body>
+
+    <div class="flexbox-container">
+      <div class="box1-container">
+        <h1>Dette ændrer farve(transition)</h1>
+        <button onclick="changeBG('box1','#F0F')">Magenta</button>
+        <button onclick="changeBG('box1','#0C0')">Green</button>
+        <button onclick="Fadeout('box1')">Fadeout</button>
+        <button onclick="Fadein('box1')">Fadein</button>
+        <button onclick="changeBG('box1','#9DCEFF')">Origninal</button>
+        <div id="box1">Content in box...</div>
+      </div>
+
+
+      <div class="box2-container">
+        <h1>Dette højden(transition)</h1>
+        <button onclick="Slideopen('box2')" >Slide open</button>
+        <button onclick="Slideclosed('box2')" >Slide closed</button>
+        <div id="box2">Content in box...</div>
+      </div>
+    </div>
+
+
+
+    <div class="flexbox-container">
+      <h1>Dette ændrer positionering(left-transition)</h1>
+      <div class="box3-container">
+        <button onclick="Slidein('box3')" >Slide in</button>
+        <button onclick="Slideout('box3')" >Slide out</button>
+        <div id="box3">Content in box...</div>
+      </div>
+
+
+     <h1>Dette aktiverer css kode og giver alert</h1>
+     <div class="box4">
+       <button onclick="el.style.transform = 'translateX(300px)'">transform</button>
+       <button onclick="el.style.opacity = '.1'">opacity</button>
+       <div id="box4">Content in box...</div>
+     </div>
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button{
+  margin: 10px;
+}
+
+.flexbox-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+#box1 {
+	background: #9DCEFF;
+	width: 400px;
+	height: 200px;
+}
+
+
+#box2 {
+	background: #9DCEFF;
+	width: 400px;
+	height: 200px;
+}
+
+#box3 {
+	background: #9DCEFF;
+	width: 400px;
+	height: 200px;
+  position: absolute;
+  left: -400px;
+}
+
+
+#box4 {
+  background: #9DCEFF;
+	width: 400px;
+	height: 200px;
+	transition: transform 2.5s linear 0s, opacity 1.5s linear 0s;
+}
